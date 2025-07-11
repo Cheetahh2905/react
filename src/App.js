@@ -1,11 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
-import ListNumber from './ListNumber'
-
+import ListClass from "./ListClass";
+import ListStudent from "./ListStudent";
 function App() {
   return (
    <>
-       <ListNumber/>
+       <ListClass/>
+       <ListStudent/>
    </>
   );
 }
